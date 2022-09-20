@@ -1,5 +1,5 @@
 # within3-weather-station
-Add a line in our Dockerfile that tells Docker what base image we would like to use for our application.
+# Add a line in our Dockerfile that tells Docker what base image we would like to use for our application.
   FROM node:12.18.1
 The NODE_ENV environment variable specifies the environment in which an application is running (usually, development or production.
   ENV NODE_ENV=production
